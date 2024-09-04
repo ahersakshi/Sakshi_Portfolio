@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>HTML Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #ffffff; /* White */
+        }
+        #wrapper {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        #header {
+            background-color: #1976D2; /* Dark blue */
+            padding: 10px 0;
+            border-bottom: 2px solid #333; /* Border below header */
+        }
+        #header table {
+            width: 85%;
+            margin: 0 auto;
+        }
+        #header a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 15px 20px;
+            transition: color 0.3s;
+        }
+        #header a:hover {
+            color: #f3971b; /* Dark orange */
+        }
+        .section {
+            width: 100%;
+            padding: 60px 0;
+            text-align: center;
+        }
+        .dark-section {
+            background-color: #0D47A1; /* Dark blue */
+            color: #E3F2FD; /* Light blue */
+        }
+        .light-section {
+            background-color: #BBDEFB; /* Light blue */
+            color: #0D47A1; /* Dark blue */
+        }
+        .section h2 {
+            margin: 0 0 20px;
+            font-size: 36px;
+        }
+        .section hr {
+            border: 0;
+            height: 3px;
+            background: #f3971b; /* Dark orange */
+            width: 70px;
+            margin: 20px auto;
+        }
+        .section p, .section ul {
+            font-size: 18px;
+            margin: 20px auto;
+            width: 70%;
+            line-height: 1.6;
+        }
+        .section img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        .skills, .contact-info {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .skills div, .contact-info div {
+            width: 30%;
+            margin: 20px 0;
+        }
+        .skills div h2, .contact-info div h2 {
+            font-size: 24px;
+        }
+        a.btn {
+            background-color: #f3971b; /* Dark orange */
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        a.btn:hover {
+            background-color: #0D47A1; /* Dark blue */
+        }
+        .projects ul {
+            list-style: none;
+            padding: 0;
+        }
+        .projects li {
+            margin-bottom: 20px;
+        }
+        .projects li h3 {
+            margin-bottom: 10px;
+        }
+        .projects li p {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <!-- Start Header -->
+        <table id="header" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                <td>
+                    <table border="0" cellpadding="15" cellspacing="0" align="center">
+                        <tr>
+                            <td>
+                                <font face="georgia" size="10">
+                                    <span class="fa fa-user-circle" aria-hidden="true"></span>
+                                </font>
+                            </td>
+                            <td>&nbsp;</td>
+                            <td><a href="#home">Home</a></td>
+                            <td><a href="#about">About</a></td>
+                            <td><a href="#services">Skills</a></td>
+                            <td><a href="#testimonial">Hobbies</a></td>
+                            <td><a href="#achievements">Achievements</a></td>
+                            <td><a href="#projects">Projects</a></td>
+                            <td><a href="#contact">Contact</a></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <!-- End Header -->
+
+        <!-- Start Home -->
+        <div id="home" class="section dark-section">
+            <h2>Hello, I'm Sakshi Aher</h2>
+            <h3>I am a Second Year Student in MIT Academy of Engineering</h3>
+        </div>
+        <!-- End Home -->
+
+        <!-- Start About -->
+        <div id="about" class="section light-section">
+            <h2>About Me</h2>
+            <hr>
+            <table border="0" width="85%" cellpadding="15" cellspacing="0" align="center">
+                <tr>
+                    <td width="40%">
+                        <img src="C:\Users\DELL\Desktop\Sakshi Image_Portfolio.jpg" alt="Sakshi Aher">
+                    </td>
+                    <td width="60%">
+                        <p>
+                            My full name is Sakshi Ravindra Aher, and I am currently studying in the Computer Science Branch of MIT Academy of Engineering. I completed my schooling at Madhavarao Boraste School and pursued my 11th and 12th grades at B.P.Patil junior college. I am from Ozar, Maharashtra, and have a strong enthusiasm for coding and software development.
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <!-- End About -->
+
+        <!-- Start Skills -->
+        <div id="services" class="section dark-section">
+            <h2>Skills</h2>
+            <hr>
+            <div class="skills">
+                <div>
+                    <h2>C Language</h2>
+                </div>
+                <div>
+                    <h2>HTML</h2>
+                </div>
+                <div>
+                    <h2>Python</h2>
+                </div>
+                <div>
+                    <h2>Auto Cad</h2>
+                </div>
+                <div>
+                    <h2>Fusion 360</h2>
+                </div>
+                <div>
+                    <h2>CSS</h2>
+                </div>
+            </div>
+        </div>
+        <!-- End Skills -->
+
+        <!-- Start Hobbies/Testimonial -->
+        <div id="testimonial" class="section light-section">
+            <h2>Hobbies/Testimonial</h2>
+            <hr>
+            <table border="2" cellpadding="15" cellspacing="0" align="center">
+                <tr>
+                    <td>
+                        <p>
+                            I got 94.81% in 10th STATE Board. I passed my HSC board 12th exam with 93.00%. I stood on the third position in IMO (International Mathematics Olympiad) for two consecutive years. I have participated in dance competitions. Currently, I am pursuing a B.Tech in Computer Engineering at MITAOE.
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <!-- End Hobbies/Testimonial -->
+
+        <!-- Start Achievements -->
+        <div id="achievements" class="section dark-section">
+            <h2>Achievements</h2>
+            <hr>
+            <ul>
+                <li>
+                    <h3>Programming Essentials in Python Certificate</h3>
+                    <a href="https://drive.google.com/file/d/12Fm0K57B2TweQ0S4T2cZAOtvy_ITovsi/view?usp=sharing" target="_blank" class="btn">View Certificate</a>
+                </li>
+            </ul>
+        </div>
+        <!-- End Achievements -->
+
+        <!-- Start Projects -->
+        <div id="projects" class="section light-section">
+            <h2>Projects</h2>
+            <hr>
+            <div class="projects">
+                <ul>
+                    <li>
+                        <h3>Resume Based Job matching Portal</h3>
+                        <p>The Resume-Based Job Matching Portal project aims to enhance job search efficiency by utilizing natural language processing (NLP) and machine learning (ML) technologies to provide personalized job recommendations. The system architecture includes a user-friendly web interface, data processing modules for resume and job description analysis, and a matching algorithm that ensures relevant job matches. The project emphasizes user experience and satisfaction, achieving high precision and recall rates in job recommendations. Future improvements include developing more advanced algorithms, creating a mobile application, and integrating with other platforms.</p>
+                    </li>
+                    <li>
+                        <h3>Hospital Management System</h3>
+                        <p>The Hospital Management System DBMS project focuses on streamlining hospital operations by efficiently managing patient records, doctor schedules, and administrative tasks. The system architecture comprises a robust database to store and retrieve patient information, appointments, billing details, and medical history. Key features include patient registration, doctor-patient appointment scheduling, inventory management, and comprehensive reporting capabilities. The project highlights the importance of data accuracy and security, ensuring compliance with healthcare regulations. Future enhancements involve integrating advanced analytics for predictive healthcare insights and implementing a patient portal for improved engagement and communication.</p>
+                    </li>
+                    <li>
+                        <h3>Library Management System</h3>
+                        <p>The Library Management System DBMS project aims to modernize library operations by automating book tracking, borrower management, and cataloging processes. The system architecture includes a user-friendly interface, a centralized database for storing book and member information, and modules for borrowing, returning, and reserving books. Key features encompass book search functionality, overdue notifications, and comprehensive reporting tools. The project emphasizes user convenience and operational efficiency, achieving significant reductions in manual effort and errors. Future developments involve integrating e-book management, enhancing search algorithms, and providing personalized book recommendations.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- End Projects -->
+
+        <!-- Start Contact -->
+        <div id="contact" class="section dark-section">
+            <h2>Contact</h2>
+            <hr>
+            <div class="contact-info">
+                <div>
+                    <h2>Call Me At</h2>
+                    <p><span class="fa fa-phone" aria-hidden="true"></span> +91 9922110158</p>
+                </div>
+                <div>
+                    <h2>Email Me At</h2>
+                    <p><span class="fa fa-envelope" aria-hidden="true"></span> sakshiaher56@gmail.com</p>
+                </div>
+                <div>
+                    <h2>Address</h2>
+                    <p><span class="fa fa-home" aria-hidden="true"></span> MIT Academy of Engineering</p>
+                </div>
+            </div>
+        </div>
+        <!-- End Contact -->
+    </div>
+</body>
+</html>
